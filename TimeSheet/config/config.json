@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "time-sheet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/timeSheet/TimeSheetWebPart.js",
+          "manifest": "./src/webparts/timeSheet/TimeSheetWebPart.manifest.json"
+        }
+      ]
+    },
+    "project-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/project/ProjectWebPart.js",
+          "manifest": "./src/webparts/project/ProjectWebPart.manifest.json"
+        }
+      ]
+    },
+    "time-sheet-tracking-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/timeSheetTracking/TimeSheetTrackingWebPart.js",
+          "manifest": "./src/webparts/timeSheetTracking/TimeSheetTrackingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-1.12.4.min.js",
+      "globalName": "jQuery"
+    },
+    "datatables.net": {
+      "path": "https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "TimeSheetWebPartStrings": "lib/webparts/timeSheet/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ProjectWebPartStrings": "lib/webparts/project/loc/{locale}.js",
+    "TimeSheetTrackingWebPartStrings": "lib/webparts/timeSheetTracking/loc/{locale}.js"
+  }
+}

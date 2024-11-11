@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "time-sheet",
+    "libraryId": "454d1ad3-4e38-480d-88ad-648956732fa3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "time-sheet",
+    "solutionShortDescription": "time-sheet description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,309 @@
+[data-sp-feature-tag="PageTitle web part (Banner)"] {
+    display: none;
+}
+
+[data-automation-id="CanvasZone-SectionContainer"] {
+    max-width: 100% !important;
+}
+
+.timeSheet .d-flex-header{
+    display: flex;
+    align-items: right;
+    margin: 20px 0;
+}
+
+.Card {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px #c3c3c34d;
+}
+
+.Add-Dialog .ms-Dialog-title {
+    color: #fafafa; 
+    padding: 25px 0px 25px 0px;
+    line-height: normal;
+    min-height: 35px;
+    color: white;
+    background: #006eb5;
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.Add-Dialog .ms-Dialog-main {
+    border-radius: 14px;
+}
+
+.Update-Dialog .ms-Dialog-title {
+    color: #fafafa; 
+    padding: 25px 0px 25px 0px;
+    line-height: normal;
+    min-height: 35px;
+    color: white;
+    background: #006eb5;
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.Update-Dialog .ms-Dialog-main {
+    border-radius: 14px;
+}
+
+.Add-Project {
+    text-align: right;
+    top: 10px;
+    display: block;
+}
+
+.Add-Project .ms-Button--primary {
+    border-radius: 8px;
+}
+
+.Add-Project .ms-Button--primary:hover {
+    /* border: 1px solid rgb(26, 100, 145); */
+    color: rgb(255, 255, 255);
+}
+
+.Time-Title {
+    font-size: 28px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    color: #006eb5;
+}
+
+.Submit-Details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Cancel-Details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon-234 {
+    font-size: 16px;
+    /* margin: 0px 4px; */
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.Date-Icon {
+    border: black;
+    background-color: #DBE9FA;
+    color: #33a4dc;
+    border-radius: 14px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 13px;
+    margin-top: 11px;
+}
+
+.Device-icon {
+    background-color: #DBE9FA;
+    color: #33a4dc;
+    border-radius: 14px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 13px;
+    margin-top: 1px;
+}
+
+.People-Icon {
+    background-color: #DBE9FA;
+    color: #33a4dc;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 13px;
+}
+
+.card-Choice p{
+    margin-right: 12px;
+    font-weight: 10px;
+}
+
+.card-AssignTo {
+    margin-bottom: 26px;
+}
+
+/* .modified {
+    margin: 16px;
+    margin-right: 15px;
+}
+
+.modified p {
+    margin-top: 5px;
+    margin-right: 12px;
+} */
+
+
+.E-Icon {
+    margin-left: 204px;
+    color: green;
+    cursor: pointer;
+    margin-top: -37px;
+}
+
+.D-Icon {
+    margin-left: 230px;
+    color: red;
+    cursor: pointer;
+    margin-top: -19px;
+}
+
+.Update-TimeSheet {
+    display: flex;
+    padding: 12px;
+}
+
+.Cancel-Update-TimeSheet {
+    display: flex;
+    padding: 12px;
+    margin-right: 5px
+}
+
+.Add-Title .ms-Label {
+    color: #006eb5;
+}
+
+.Add-ClientName .ms-Label {
+    color: #006eb5;
+}
+
+.Add-ProjectList .ms-Dropdown-label {
+    color: #006eb5;
+}
+
+.Add-Technology .ms-Dropdown-label {
+    color: #006eb5;
+}
+
+.Add-Context .ms-Label {
+    color: #006eb5;
+    font-weight: 600;
+}
+
+.delete-Text h4{
+    text-align: center;
+    font-size: 25px;
+    margin: 26px 0 -10px;
+}
+
+.delete-Text p{
+    margin-top: 22px;
+    text-align: center;
+}
+
+.Close-Icon {
+    color: #a8a8a8;
+    font-size: 17px;
+    cursor: pointer;
+    position: absolute;
+    top: -12px;
+    right: -2px; 
+    transition: all 0.4s;
+}
+
+.Close-Icon :hover,
+.Close-Icon :focus{
+    color: black;
+}
+
+.Delete-Form {
+    margin-top: 8px;
+    display: flex;
+    /* padding: 12px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.Delete-Form .ms-Dialog-content {
+    margin-top: -26px;
+}
+
+.Delete-Form .ms-Dialog-main {
+    color: #636363;
+    border-radius: 5px;
+}
+
+.Delete-Form .ms-Button-label {
+    margin: 7px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    line-height: 100%;
+    display: block;
+    font-weight: normal;
+}
+
+.Delete-Form .ms-Button--default {
+    border: none;
+    background: #c1c1c1;
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 2px;
+}
+
+.Delete-Form .ms-Button--default:hover {
+    background: #a8a8a8;
+}
+
+.Delete-Form .ms-Button--primary {
+    border-radius: 4px;
+    margin: 10px 10px;
+    border: none;
+    background: #f15e5e;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.Delete-Form .ms-Button--primary:hover,
+.modal-confirm .ms-Button--primary:focus{
+    background: #ee3535;
+}
+
+.Cancel-Icon{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid #f15e5e;
+} 
+
+.Cancel-Icon .cancel {
+    color: #f15e5e;
+    font-size: 52px;
+    display: inline-block;
+    margin-top: 22px;
+    margin-right: -2px;
+}
+
+.Update-Title .ms-Label {
+    color: #006eb5;
+}
+
+.Update-ClientName .ms-Label {
+    color: #006eb5;
+}
+
+.Update-Context .ms-Label {
+    color: #006eb5;
+    font-weight: 600;
+}
+
+.Update-ProjectList .ms-Dropdown-label {
+    color: #006eb5;
+}
+
+.Update-Technology .ms-Dropdown-label {
+    color: #006eb5;
+}
