@@ -1,5 +1,4 @@
-# captial-authorization-form
-
+# TimeSheet
 ## Summary
 
 Short summary on functionality and used technologies.
@@ -63,9 +62,7 @@ Description of the extension that expands upon high-level summary above.
 
 This extension illustrates the following concepts:
 
-- CRUD Operation
-- Multiple Attchments in Document Library For Sharepoint Online
-- Design Dashboard
+- 
 
 > Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
